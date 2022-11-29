@@ -1,0 +1,102 @@
+.cardConatiner{
+    background-color: rgba(6, 6, 63, 0.944);
+    height: 280px;
+    width: 450px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 12px;
+}
+.cardHeading{
+    color: white;
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align : center;
+}
+
+.bottomContainer{
+    display: flex;
+    width: 100%;
+    height: 18px;
+    
+}
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.left,.mid,.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 180px;
+    
+    
+}
+
+.left{
+    flex: 3;
+}
+.mid{
+    flex: 4;
+    padding-top: 5px;
+}
+.right{
+    flex: 3;
+}
+.logo{
+    height: 70px;
+    width: auto;
+}
+
+.crown{
+    height: 30px;
+    width: auto;
+}
+
+.flag{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+
+.score{
+    width: 100%;
+    background-color:rgb(12, 172, 111);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight:500;
+    margin: 10px 0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.name{
+    font-size: 12px;
+    padding: 10px;
+    height: 50px;
+    text-align : center;
+}

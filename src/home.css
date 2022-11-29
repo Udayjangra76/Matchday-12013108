@@ -1,0 +1,54 @@
+.home{
+    width: 100vw;
+    background-color:white ;
+    overflow: scroll;
+    min-height: 100vh;
+}
+
+.headingContainer{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading{
+    color: rgba(6, 6, 63, 0.944); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.searchbarContainer{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    
+}
+
+.searchbar{
+    width: 450px;
+    border: 1px solid lightgrey;
+    color: gray;
+    height: 40px;
+    padding-left: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.searchIcon{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    transform: translateX(30px);
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+}
